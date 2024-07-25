@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jomolhari", serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px 50px;
+    padding: 16px 86px;
+}
+.nav-list{
+    display: flex;
+    gap: 43px;
+}
+.auth-page{
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      color: #fff;
+}
+#hero{
+    width: 100%;
+    min-height: 416px;
+    background-image: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#articles{
+    width: 100%;
+    padding: 36px 0px 52px 0px;
+    background-color: #000;
+}
+.wrapper{
+    width: 100%;
+    padding-left: 86px;
+}
+.articles-title{
+    font-size: 46px;
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    line-height: 73.67px;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+.card-wrapper{
+    width: 100%;
+    max-width: 276px;
+    min-height: 336px;
+    background-color: #1E1E1E;
+    color: #fff;
+    border: 3px solid #F0DE36;
+    transition: 0.5s;
+}
+.card-wrapper:hover{
+    transform: scale(1.05);
+}
+.image-wrapper{
+    width: 100%;
+    max-width: 266px;
+    height: 172px;
+}
+.picture{
+    width: 266px;
+    height: 172px;
+    object-fit: cover;
+}
+.card-content{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 16px;
+
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+}
+.avatar-wrapper{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.card-title{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.card-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+    height: 40px;
+    overflow: hidden;
+}
+.card-author{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+}
+.card-subtitle{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+    color: #787878;
+}

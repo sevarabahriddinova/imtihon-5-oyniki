@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../style/auth.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    
+    <form class="auth-form">
+        <a class="auth-logo" href="../../index.html"><img src="../images/logo.png" alt="logotip"></a>
+        <h2 class="auth-title">Sign Up</h2>
+         <input id="name" type="text" placeholder="Firstname" required>
+        <input id="email" type="email" placeholder="Email">
+        <div class="input-wrapper">
+            <input id="password" type="password" placeholder="Password">
+            <label class="label" for="password"><i class="bi bi-eye-fill"></i></label>
+        </div>
+        <p class="form-text">Don’t you have an account? <a href="../pages/login.html">Login.</a></p>
+        <button type="submit" id="sign-btn">Sign Up</button>
+     
+    </form>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../script/sign.js"></script>
+</body>
+</html>
